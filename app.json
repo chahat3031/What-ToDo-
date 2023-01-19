@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "What ToDO?",
+    "slug": "What ToDo?",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff5ee"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#fff5ee"
+      },
+      "package": "com.chahat_30.whatToDo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
